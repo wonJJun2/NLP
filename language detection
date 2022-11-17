@@ -1,0 +1,6 @@
+import fasttext
+model = fasttext.load_model('lid.176.ftz')
+model.predict('apple')
+
+# output
+(('__label__en',), array([0.13628894]))
